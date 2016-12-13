@@ -1,0 +1,62 @@
+h1		{
+		font-family: "Palatino Linotype", Georgia, serif;
+		font-size: 60px;
+		text-align: center;				
+}
+
+#slogan	{
+		font-style: italic;
+		font-size: 20px;
+		text-align: center;
+		text-transform: uppercase;	
+}
+
+#nav 	{
+		list-style-type: none;
+		margin: auto;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+		border-radius: 10px;	
+}
+
+#nav li {
+		float:left;
+		display: inline;
+		color: white;
+		padding:14px 16px;
+		width: 17.2em;
+}
+
+img 	{
+		display: block;
+		width: 75%;
+		height: 50%;
+		margin: auto;
+		padding-top: 25px;		
+}
+
+body 	{
+		color: black;
+		font-family: "Palatino Linotype", Georgia, serif;
+		background: #4D946A;
+		/*background: #06B252;*/		
+}
+
+p 		{
+		text-align: center;		
+}	
+
+ul		{
+		text-align:center;	
+}
+
+li 		{
+		list-style-type: none;
+}
+		
+#creator {
+		text-align: center;
+}		
+
+
