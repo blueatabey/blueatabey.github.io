@@ -4,14 +4,27 @@ body 	{
 		color: black;
 		font-family: "Raleway", sans-serif;
 		background: #4D946A;
-
-
+		text-align: center;
+}
+.wrapper{
+		background-color: #FFE2B8;
+		border: 1px solid black;
+		padding: 20px;
+}
+header {
+		background-color: #FFED74;
+		border: 1px black solid;
+		padding: 20px;
+}
 nav 	{
 		list-style-type: none;
 		margin: auto;
 		overflow: hidden;
-		background-color: #333;
+		/*background-color: #333;*/
 		border-radius: 10px;
+		background-color: #E8C66A;
+		border: 1px black solid;
+		padding: 20px;
 }
 nav a {
 		float:left;
@@ -19,8 +32,16 @@ nav a {
 		padding:14px 16px;
 		width: 25%;
 }
-section {
+aside {
+		background-color: #FFE2B8;
+		border: 1px solid black;
+		padding: 20px;
+}				
+article{
 		padding:4em 0;
+		background-color: #E89C6C;
+		border: 1px solid black;
+		padding: 20px;
 }
 h1		{
 		font-family: "Aref Ruqaa", serif;
@@ -38,12 +59,23 @@ img 	{
 ul		{
 		list-style-type: none;	
 }
-#splash {
+footer	{
+		text-align: left;
+		/*background: #4D946A;*/
+		font-size: 12px;
+		letter-spacing: .25em;
+		font-weight: bold;
+		background-color: #FF957E;
+		border: 1px solid black;
+		padding: 20px;
+}
+/*#splash {
 		background:url(../images/welcome_carpet.jpg);
 		background-size:cover;
 		background-repeat:no-repeat;
 		background-position: center;
-		height: 70vh;			
+		height: 70vh;*/
+
 }
 #slogan	{
 		font-style: italic;
@@ -52,5 +84,7 @@ ul		{
 		text-transform: uppercase;	
 		padding-bottom: 15px;
 }
+
+
 
 
