@@ -1,0 +1,142 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+/*@import url(http://fonts.googleapis.com/css?family=Aref+Ruqaa);*/
+body 	{
+		color: black;
+		font-family: "Raleway", sans-serif;
+		background: #4D946A;
+		text-align: center;
+}
+.wrapper{
+		background-color: /*#FFE2B8;*/
+		border: 1px solid black;
+		padding: 20px;
+}
+header {
+		background-color: /*#FFED74;*/
+		border: 1px black solid;
+		padding: 20px;
+}
+
+#slogan	{
+		font-style: italic;
+		font-size: 20px;
+		text-align: center;
+		text-transform: uppercase;	
+		padding: 20px;
+}
+
+nav 	{
+		list-style-type: none;
+		margin: auto;
+		overflow: hidden;
+		background-color: #333;
+		border-radius: 10px;
+		background-color: /*#E8C66A;*/
+		border: 1px black solid;
+		padding: 20px;
+}
+nav a {
+		float:left;
+		color: white;
+		padding:14px 16px;
+		width: 25%;
+}
+aside {
+		background-color: /*#FFE2B8;*/
+		border: 1px solid black;
+		padding: 20px;
+}
+
+aside ul {
+		list-style-type: none;
+		line-height: 1.5em
+}
+
+article{
+		padding:4em 0;
+		background-color: /*#E89C6C;*/
+		border: 1px solid black;
+		padding: 20px;
+}
+h1		{
+		font-family: "Aref Ruqaa", serif;
+		letter-spacing: .25em;
+		font-size: 60px;
+		text-align: center;	
+		padding-bottom: 10px;			
+}
+img 	{
+		display: block;
+		width: 95%;
+		margin: auto;
+		padding-top: 25px;
+		padding-bottom: 25px;
+			
+}
+
+ul		{
+		list-style-type: none;	
+		line-height: 1.5em;
+}
+footer	{
+		text-align: left;
+		background: #333;
+		font-size: 12px;
+		letter-spacing: .25em;
+		color: white;
+		border: 1px solid #333;
+		border-radius: 10px;
+		padding: 20px;
+		margin-top: 10px;
+		text-decoration: none;
+}
+
+/*#splash {
+		background:url(../images/welcome_carpet.jpg);
+		background-size:cover;
+		background-repeat:no-repeat;
+		background-position: center;
+		height: 70vh;*/
+
+}
+
+
+#two_column {
+	background-color: /*#FFB7CF;*/
+	border: 1px black solid;
+	padding: 20px;	
+}
+
+#left	{
+	background-color: white;
+	border: 1px white; 
+	padding: 20px;	
+	float: left;
+	width: 62%;
+	text-align: justify;
+	border-radius: 10px;
+}
+
+#right {
+	background-color: white;
+	border: 1px white;
+	padding: 20px;	
+	float: right;
+	width: 30%;
+	text-align: left;
+	border-radius: 10px;
+
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+span {
+	font-weight: bold;
+}
